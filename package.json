@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "bench": "matcha bench.js"
+    "bench": "node bench.js"
   },
   "files": [
     "index.js"
@@ -37,5 +37,9 @@
     "lodash": "^3.10.1",
     "matcha": "^0.6.0",
     "mocha": "*"
+  },
+  "dependencies": {
+    "benchmark": "^1.0.0",
+    "microtime": "^2.0.0"
   }
 }
